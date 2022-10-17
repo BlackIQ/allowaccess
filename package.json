@@ -1,0 +1,25 @@
+{
+  "name": "allowaccess",
+  "version": "1.0.0",
+  "description": "AllowAccess is a middle ware to protect your routes as a middleware",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/BlackIQ/allowaccess.git"
+  },
+  "keywords": [
+    "Access",
+    "Express",
+    "NodeJs"
+  ],
+  "author": "Amirhossein Mohammadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/BlackIQ/allowaccess/issues"
+  },
+  "homepage": "https://gitlab.com/BlackIQ/allowaccess#readme"
+}
