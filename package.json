@@ -4,19 +4,23 @@
   "description": "AllowAccess is a middle ware to protect your routes as a middleware",
   "main": "index.js",
   "type": "module",
+  "author": "Amirhossein Mohammadi",
+  "license": "MIT",
   "scripts": {
     "test": "node index.js"
   },
+  "homepage": "https://gitlab.com/blackiq-packages/npm/allowaccess",
   "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/blackiq-packages/npm/allowaccess.git"
+    "url": "git+https://gitlab.com/blackiq-packages/npm/allowaccess.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/blackiq-packages/npm/allowaccess/-/issues",
+    "email": "bugs@amirhossein.info"
   },
   "keywords": [
     "Access",
     "Express",
     "NodeJs"
-  ],
-  "author": "Amirhossein Mohammadi",
-  "license": "MIT",
-  "homepage": "https://gitlab.com/blackiq-packages/npm/allowaccess"
+  ]
 }
