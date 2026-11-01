@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/BlackIQ/allowaccess.git"
+    "url": "git+https://gitlab.com/blackiq-packages/npm/allowaccess.git"
   },
   "keywords": [
     "Access",
@@ -18,8 +18,5 @@
   ],
   "author": "Amirhossein Mohammadi",
   "license": "MIT",
-  "bugs": {
-    "url": "https://gitlab.com/BlackIQ/allowaccess/issues"
-  },
-  "homepage": "https://gitlab.com/BlackIQ/allowaccess#readme"
+  "homepage": "https://gitlab.com/blackiq-packages/npm/allowaccess"
 }
