@@ -1,0 +1,38 @@
+site_name: AllowAccess Docs
+site_description: Official AllowAccess Package documentation
+site_url: https://allowaccess.amirhossein.info
+
+repo_url: https://gitlab.com/blackiq-packages/npm/allowaccess
+repo_name: amirhossein/allowaccess
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: red
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+    - scheme: slate
+      primary: red
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Learn:
+    - Install: learn/install.md
+    - Functions: learn/functions.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
