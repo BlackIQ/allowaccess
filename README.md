@@ -21,7 +21,7 @@ Role is read from **`req.body.role`**.
 
 ## Docs
 
-[allowaccess.amirhossein.info](https://allowaccess.amirhossein.info)
+[allowaccess.docs.amirhossein.info](https://allowaccess.docs.amirhossein.info)
 
 ## Links
 

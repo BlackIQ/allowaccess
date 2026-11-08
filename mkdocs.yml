@@ -1,6 +1,6 @@
 site_name: AllowAccess Docs
 site_description: Official AllowAccess Package documentation
-site_url: https://allowaccess.amirhossein.info
+site_url: https://allowaccess.docs.amirhossein.info
 
 repo_url: https://gitlab.com/blackiq-packages/npm/allowaccess
 repo_name: amirhossein/allowaccess
