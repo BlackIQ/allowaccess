@@ -21,14 +21,15 @@ Role is read from **`req.body.role`**.
 
 ## Docs
 
-[allowaccess.docs.amirhossein.info](https://allowaccess.docs.amirhossein.info)
+Full documentation: [allowaccess.amirhossein.info](https://allowaccess.amirhossein.info)
 
 ## Links
 
-|        |                                                     |
+| Title  | URL                                                 |
 | ------ | --------------------------------------------------- |
 | npm    | https://www.npmjs.com/package/allowaccess           |
 | Source | https://gitlab.com/blackiq-packages/npm/allowaccess |
+| Docs   | https://allowaccess.amirhossein.info                |
 
 ## License
 
