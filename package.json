@@ -9,13 +9,13 @@
   "scripts": {
     "test": "node index.js"
   },
-  "homepage": "https://gitlab.com/blackiq-packages/npm/allowaccess",
+  "homepage": "https://github.com/BlackIQ/allowaccess",
   "repository": {
-    "url": "git+https://gitlab.com/blackiq-packages/npm/allowaccess.git",
+    "url": "git+https://github.com/BlackIQ/allowaccess.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://gitlab.com/blackiq-packages/npm/allowaccess/-/issues",
+    "url": "https://github.com/BlackIQ/allowaccess/issues",
     "email": "bugs@amirhossein.info"
   },
   "keywords": [
