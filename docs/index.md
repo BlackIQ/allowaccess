@@ -15,7 +15,7 @@ router.post("/blog", access.allow(["admin", "author"]), createPost);
 |        |                                                                            |
 | ------ | -------------------------------------------------------------------------- |
 | npm    | [npmjs.com/package/allowaccess](https://www.npmjs.com/package/allowaccess) |
-| Source | [GitLab](https://gitlab.com/blackiq-packages/npm/allowaccess)              |
+| Source | [GitHub](https://github.com/BlackIQ/allowaccess)                           |
 
 ## Next
 
