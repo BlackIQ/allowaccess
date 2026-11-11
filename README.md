@@ -25,11 +25,11 @@ Full documentation: [allowaccess.amirhossein.info](https://allowaccess.amirhosse
 
 ## Links
 
-| Title  | URL                                                 |
-| ------ | --------------------------------------------------- |
-| npm    | https://www.npmjs.com/package/allowaccess           |
-| Source | https://gitlab.com/blackiq-packages/npm/allowaccess |
-| Docs   | https://allowaccess.amirhossein.info                |
+| Title  | URL                                       |
+| ------ | ----------------------------------------- |
+| npm    | https://www.npmjs.com/package/allowaccess |
+| Source | https://github.com/BlackIQ/allowaccess    |
+| Docs   | https://allowaccess.amirhossein.info      |
 
 ## License
 
