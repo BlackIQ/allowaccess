@@ -1,5 +1,5 @@
 [project]
-name = "allowaccess"
+name = "allowaccess-docs"
 version = "0.1.0"
 description = "Lightweight Express middleware for role-based route access"
 readme = "README.md"
