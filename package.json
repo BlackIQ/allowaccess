@@ -1,6 +1,6 @@
 {
   "name": "allowaccess",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "AllowAccess is a middle ware to protect your routes as a middleware",
   "main": "index.js",
   "type": "module",
