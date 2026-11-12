@@ -9,7 +9,7 @@
   "scripts": {
     "test": "node index.js"
   },
-  "homepage": "https://github.com/BlackIQ/allowaccess",
+  "homepage": "https://allowaccess.amirhossein.info",
   "repository": {
     "url": "git+https://github.com/BlackIQ/allowaccess.git",
     "type": "git"
