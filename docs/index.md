@@ -4,6 +4,8 @@ Lightweight Express middleware for simple role checks on routes.
 
 You create one instance with a status code and message for denied requests, then attach `allow`, `deny`, or `open` to individual routes.
 
+> Peer idea: use with **Express** (or any middleware stack with `(req, res, next)`).
+
 ```javascript
 import AllowAccess from "allowaccess";
 
