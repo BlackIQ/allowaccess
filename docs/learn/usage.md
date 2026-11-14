@@ -28,7 +28,7 @@ If you keep the role on `req.user`, adapt that before these middlewares run.
 
 ## API References
 
-Here are all of API references to know.
+Here are all you need about functions, errors and how to use them.
 
 ### `allow(roles)`
 
@@ -64,7 +64,7 @@ router.patch("/blog/:id", access.deny(["reader"]), updatePost);
 import express from "express";
 import AllowAccess from "allowaccess";
 
-// For example we have 3 roles: admin, author, reader
+// Consider we have 3 roles: admin, author, reader
 
 const router = express.Router();
 const access = new AllowAccess(401, "You don't have access");
