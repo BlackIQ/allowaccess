@@ -26,15 +26,19 @@ req.body.role = "admin";
 
 If you keep the role on `req.user`, adapt that before these middlewares run.
 
-## `allow(roles)`
+## API References
 
-Allows the request only when `req.body.role` is in the list.
+Here are all of API references to know.
+
+### `allow(roles)`
+
+Allows the request only when `req.body.role` is in the list. Opposite of `deny()`.
 
 ```javascript
 router.post("/blog", access.allow(["admin", "author"]), createPost);
 ```
 
-## `open(how)`
+### `open(how)`
 
 | Value                         | Behavior                               |
 | ----------------------------- | -------------------------------------- |
@@ -46,9 +50,13 @@ router.get("/blog", access.open("all"), listPosts);
 router.delete("/blog/:id", access.open("none"), deletePost);
 ```
 
-## `deny(roles)`
+### `deny(roles)`
 
-Named as a deny-list helper. In the **current** published logic it uses the same membership check as `allow` (listed roles call `next()`). Prefer `allow([...])` with the roles you want to accept until you change that implementation.
+Denys the request only when `req.body.role` is in the list. Opposite of `allow()`.
+
+```javascript
+router.patch("/blog/:id", access.deny(["reader"]), updatePost);
+```
 
 ## Full example
 
@@ -56,11 +64,13 @@ Named as a deny-list helper. In the **current** published logic it uses the same
 import express from "express";
 import AllowAccess from "allowaccess";
 
+// For example we have 3 roles: admin, author, reader
+
 const router = express.Router();
 const access = new AllowAccess(401, "You don't have access");
 
 router.get("/blog", access.open("all"), listPosts);
 router.post("/blog", access.allow(["admin", "author"]), createPost);
-router.get("/blog/:id", access.open("all"), getPost);
+router.patch("/blog/:id", access.deny("reader"), updatePost);
 router.delete("/blog/:id", access.open("none"), deletePost);
 ```

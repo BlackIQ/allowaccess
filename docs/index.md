@@ -12,7 +12,7 @@ const access = new AllowAccess(401, "You don't have access");
 router.post("/blog", access.allow(["admin", "author"]), createPost);
 ```
 
-|        |                                                                            |
+| Title  | URL                                                                        |
 | ------ | -------------------------------------------------------------------------- |
 | npm    | [npmjs.com/package/allowaccess](https://www.npmjs.com/package/allowaccess) |
 | Source | [GitHub](https://github.com/BlackIQ/allowaccess)                           |
